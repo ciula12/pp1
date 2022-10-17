@@ -1,9 +1,9 @@
 x = 100
 suma = 0
 
-while x<150:
-    x = x+1
-    suma = suma + x
+while x<=150:
+    suma += x
+    x += 1
 
-print(suma)
+print(f"suma {suma}")
     
