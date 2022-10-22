@@ -1,10 +1,10 @@
-from ast import Num
-
-
 x = input("Podaj liczbę: ")
 count = 0
 suma = 0
 
+if(x == "gotowe"):
+    print("Nieprawidłowe wejście")
+    quit()
 
 while(x != "gotowe"):
     try:

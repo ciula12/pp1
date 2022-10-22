@@ -7,6 +7,8 @@ if(liczbag > 40):
     stawkag = stawkag * 1.5
     liczbag = liczbag - 40
     wyn = wyn + liczbag * stawkag
+else:
+    wyn = stawkag * liczbag
 
 
 print(wyn)
