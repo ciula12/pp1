@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Display movie</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Display movie</h1>
+		<script>
+			var myFavMovie = {
+					title: 		'The Shawshank Redemption',
+					genre: 		'drama',
+					year:		1994,
+					database:	'http://www.imdb.com/title/tt0111161/',
+					specs:		{budget:25000000, language:'English', digitalSound:true},
+					stars: 		['Tim Robbins', 'Morgan Freeman', 'Bob Gunton']
+			};
+			console.log("## My favourite film ##");
+			console.log("Title: ", myFavMovie.title);
+			console.log("Genre: ", myFavMovie.genre);
+			console.log("Year: ", myFavMovie.year);
+			console.log("Database: ", myFavMovie.database);
+			console.log("Budget: ", myFavMovie.specs.budget);
+			console.log("language: ", myFavMovie.specs.language);
+			console.log("digitalSound: ", myFavMovie.specs.digitalSound);
+			console.log("Stars: ", myFavMovie.stars[0]+ ",", myFavMovie.stars[1] + ",", myFavMovie.stars[2]);
+			// ...
+			
+		</script>
+	</body>
+</html>

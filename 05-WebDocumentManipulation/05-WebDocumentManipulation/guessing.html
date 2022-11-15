@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Try to guess</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Try to guess</h1>
+
+		<script>
+			// read user's number (popup window)
+			var number = prompt("Please enter number from 1 to 5", "")
+			let text
+			// create a random number
+			var randomnum = Math.ceil(Math.random() * (5))
+			// compare the numbers
+			if (number == randomnum){
+				window.alert("Good Work");
+			}
+			else {window.alert("Sorry")	}
+		</script>
+	</body>
+</html>

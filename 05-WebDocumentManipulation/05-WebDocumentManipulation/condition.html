@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Execute a condition</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Execute a condition</h1>
+		<p>Display data one the console</p>
+
+		<script>
+			var surname = window.prompt("Surname:")
+			var name = window.prompt("Name:")
+			var age = window.prompt("Your age:")
+
+			if(surname == null || surname == "" || name == null || name == "" || age == null || age == ""){
+				console.log("Error")
+			}
+			else {
+				if(confirm (name + "\n" + surname + "\n" + age)){
+					console.log(name + "\n" + surname + "\n" + age)}}
+
+		</script>
+	</body>
+</html>
