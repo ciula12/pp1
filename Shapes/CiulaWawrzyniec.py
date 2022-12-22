@@ -429,12 +429,10 @@ def info():
         forward(15)
         penup()  
 
-
-    
-
 def random_color():
     return [random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)]
         
+
 
 #MAIN
 
