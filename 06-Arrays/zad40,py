@@ -1,0 +1,28 @@
+"""40.	An array contains integer numbers: [[-38, 19], [5,40],[-7,11],[29,16]]. 
+Create a program that finds the smallest and largest values in the array and in which row and column they are located. """
+
+
+arr = [[-38, 19], [5,40],[-7,11],[-129,16]]
+
+smallest = arr[0][0]
+largest = arr[0][0]
+smallesta = 0
+smallestb = 0
+largesta = 0
+largestb = 0
+
+
+for x in range(len(arr)):
+    for y in range(len(arr[x])):
+        print(arr[x][y])
+        if smallest > arr[x][y]:
+            smallest = arr[x][y]
+            smallesta = x
+            smallestb = y
+        if largest < arr[x][y]:
+            largest = arr[x][y]
+            largesta = x
+            largestb = y
+
+print (f"{smallest}: {smallesta,smallestb}")
+print (f"{largest}: {largesta,largestb}")
